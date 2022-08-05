@@ -2,7 +2,7 @@ export default function Footer () {
     return (
 
 
-<footer className="bg-dark text-center text-white">
+<footer className="bg-primary text-center text-white">
 
 <div className="container p-4 pb-0">
 
@@ -29,8 +29,8 @@ export default function Footer () {
 
 
 <div className="text-center p-3" style={{backgroundColor: "rgba(0, 0, 0, 0.2)"}}>
-  © 2020 Copyright:
-  <a className="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+  
+  <a className="text-white text-decoration-none" href="https://mdbootstrap.com/">© 2022  TherapistFinder™:</a>
 </div>
 
 </footer>

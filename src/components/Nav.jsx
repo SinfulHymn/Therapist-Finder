@@ -2,11 +2,11 @@ import { Link } from "react-router-dom"
 export default function Nav ({user,handleSignOut}) {
 
     return (
-        <nav className="row navbar navbar-expand-lg navbar-light bg-light ">
+        <nav className="row navbar navbar-expand-lg navbar-light bg-primary" >
             <div className="container-fluid">
               
-            <Link className="navbar-brand text-start w-75" to="/">
-                <img src="https://i.imgur.com/pPryUdg.png?1" style={{maxWidth:"4.6em", marginLeft:"1em"}} />
+            <Link className="navbar-brand text-start w-20" to="/">
+                <img src="https://i.imgur.com/7w9MouD.png" style={{maxWidth:"4.6em", marginLeft:"1em"}} />
 
             
             </Link>

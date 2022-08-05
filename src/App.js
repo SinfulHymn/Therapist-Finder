@@ -93,7 +93,7 @@ function App() {
 
 
   return (
-    <div className="App">  
+    <div className="App d-flex flex-column vh-100" >  
     {/* <div>
       <div  id="signInDiv"></div>
       { Object.keys(user).length != 0 &&
@@ -109,11 +109,10 @@ function App() {
     </div> */}
       <Header user={user}
               handleSignOut={handleSignOut}/>
-     
+
+              
       <Main userDB={userDB}/>
-      <br/>
-      <br/>
-      <br/>
+      
       
 
       <Footer />
