@@ -6942,6 +6942,9 @@ textarea.form-control-lg {
   border-width: 5px !important;
 }
 
+.h-8{
+  height: 2rem;
+}
 .w-25 {
   width: 25% !important;
 }

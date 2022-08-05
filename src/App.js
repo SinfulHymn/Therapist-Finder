@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import jwtDecode from "jwt-decode";
-import './App.css';
 import Footer from './components/Footer';
 import Header from './components/Header';
 import Main from './components/Main'
@@ -22,10 +21,10 @@ function App() {
   //     console.log("no user");
   //   }
   // }
-  console.log("main userDB",userDB)
+  // console.log("main userDB",userDB)
 
   const getUserDB = async (sub) =>{
-    console.log(url+"user/"+sub)
+    // console.log(url+"user/"+sub)
    const data = await fetch(url+"user/"+sub).then(res => res.json())
    setUserDB(data[0])
   }
@@ -48,7 +47,7 @@ function App() {
     
     // console.log("Encoded JWT ID token: "+ res.credential)
     const userObject = jwtDecode(res.credential)
-    console.log("this is the whole object",userObject)
+    // console.log("this is the whole object",userObject)
     const { name, email, picture, sub } = userObject
     setUser({name, email, picture, sub})
     createUserDB({name,email,picture,sub})

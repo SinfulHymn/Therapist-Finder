@@ -13,16 +13,19 @@ code {
     monospace;
 }
 
+.App{
+  text-align: center;
+}
 
 
 .test {
   transition: .4s;
   }
-  .test:hover {
-  transition: .4s;
-  background-color: rgba(0,43,54, 0.4) ;
-  border-radius: 20%;
-  }
+  .test:hover { 
+    color: #F0DEC8 !important; 
+    text-decoration: underline;
+    text-decoration-color: #F0DEC8;
+ }
   .thercard {
     transition: .4s;
     }
@@ -31,18 +34,7 @@ code {
     background-color: rgba(142,160,164, 0.1) ;
     /* border-radius: 100%; */
     }
-/* 
-  .thercard {
-    &:hover {
-      box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-      transition: all .55s ease-in-out;
-    }
-  } */
 
-/* .carousel-inner {
-  width: 60%;
-  height: 60%;
-} */
 
 .carousel-item{
   width: 100%; /*width you want*/
@@ -54,12 +46,11 @@ code {
   height: 100%;
   object-fit: cover;
 }
-
-footer {
-  /* position: fixed; */
-  bottom: 0;
-  width: 100%;
+#g_a11y_announcement{
+  height: 0 !important;
+  width: 0 !important;
 }
+
 
 @media (max-width: 700px) { 
   .thercard {
@@ -71,18 +62,7 @@ footer {
 } 
 
 
-/* @media screen and (min-width: 400px) {
-  a>.thercard {
-    color:brown;
-  }
-} */
-/* .test{
-  width: 80%;
-  margin: 0 auto;
-}
-.main{
-  padding: 10px;
-  margin: 0 auto;
-  width: 30%;
-} */
 
+iframe{
+  display: inline !important;
+} 
