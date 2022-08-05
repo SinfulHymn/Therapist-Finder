@@ -108,7 +108,11 @@ export default function Main ({userDB}) {
         
         
     )
-    const loading=()=>(<h1>loading... </h1>)
+    const loading=()=>(
+    <div className="flex-grow-1 container m-auto p-5">
+        <h1>loading... </h1>
+    </div>
+    )
 
     return therapists ? loaded() : loading()
 }

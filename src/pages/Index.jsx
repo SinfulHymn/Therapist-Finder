@@ -54,6 +54,8 @@ export default function Index({ therapists }) {
       </div>
     );
   };
-  const loading = () => <h1>"Loading..."</h1>;
+  const loading = () => (<div className="flex-grow-1 container m-auto p-5">
+  <h1>loading... </h1>
+</div>);
   return <div className="">{therapists ? loaded() : loading()}</div>;
 }
