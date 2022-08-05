@@ -14,7 +14,7 @@ export default function Show({
   // console.log(therapist)
 
   return (
-    <div className="container">
+    <div className="container mx-auto flex-grow-1">
         <br />
         <br />
       <div className="row" >
