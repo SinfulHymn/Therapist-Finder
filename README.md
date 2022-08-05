@@ -1,6 +1,6 @@
 <br />
 <div align="center">
-  <a href="https://github.com/germanokuerten/therapist-finder-frontend">
+  <a href="https://github.com/Kmachappy/Therapist-Finder">
     <img src="https://i.imgur.com/pPryUdg.png?1" alt="Logo" width="250" height="150">
   </a>
 
@@ -11,7 +11,7 @@
   <p align="center">
     <p>Find a local Therapist today!</p>
 	A Cloud Database of Therapists Around the Country!<br />
-    <a href="https://bejewelled-cobbler-a0ab0a.netlify.app"><strong>Live Website (Frontend) - Therapist Finder</strong></a> <br/>
+    <a href="https://therapist-finder.netlify.app/therapists"><strong>Live Website (Frontend) - Therapist Finder</strong></a> <br/>
       <a href="https://therapist-finder-backend.herokuapp.com/therapists/"><strong>Live Website (Backend) - Therapist Finder</strong></a>
     <br/><br/>
 	CRUD Web Application built on <br/>
@@ -30,7 +30,7 @@
 # About
 Description            |  Screenshot
 :---:|:----:
-| <p align="left">- A cloud based web application that displays a directory of therapists where users can view and leave comments on individual therapists. <br> - Users will be able to explore therapists and view details regarding their specialties, location, background, and reviews from previous patients! <br> - Users can leave a review o therapists they have worked with previously! <br></p> | ![](https://i.imgur.com/sqM2O5p.png) | 
+| <p align="left">- A cloud based web application that displays a directory of therapists where users can view and leave comments on individual therapists. <br> - Users will be able to explore therapists and view details regarding their specialties, location, background, and reviews from previous patients! <br> - Users can leave a review o therapists they have worked with previously! <br></p> | ![](https://i.imgur.com/KqvqrYt.jpg) | 
 
 
 
