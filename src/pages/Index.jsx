@@ -6,7 +6,7 @@ export default function Index({ therapists }) {
   // console.log(therapists)
   const loaded = () => {
     return (
-      <div className="main">
+      <div className="container main">
           <div className="d-flex justify-content-evenly flex-wrap">
         {therapists.map((therapists, i) => {
           return (
