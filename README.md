@@ -31,7 +31,7 @@
 
 Description            |  Screenshot
 :---:|:----:
-| <p align="left">- A cloud based web application that displays a directory of therapists where users can view and leave comments on individual therapists. <br> - Users will be able to explore therapists and view details regarding their specialties, location, background, and reviews from previous patients! <br> - Users can leave a review o therapists they have worked with previously! <br></p> | ![](https://i.imgur.com/KqvqrYt.jpg) |
+| <p align="left">- A cloud based web application that displays a directory of therapists where users can view and leave comments on individual therapists. <br> - Users will be able to explore therapists and view details regarding their specialties, location, background, and reviews from previous patients! <br> - Users can leave a review o therapists they have worked with previously! <br></p> | ![](https://i.imgur.com/wq6IWVd.jpg) |
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
