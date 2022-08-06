@@ -28,7 +28,7 @@ export default function Show({
       <div className="row">
         <div className="col-4">
           <img
-            className="img-fluid"
+            className="img-fluid "
             src={therapist.portrait}
             alt={therapist.name}
           />
