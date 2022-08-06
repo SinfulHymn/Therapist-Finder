@@ -6,15 +6,15 @@
 
 <a href="https://github.com/germanokuerten/therapist-finder-frontend">
 <h3 align="center">Therapist Finder</h3>
-</a> 
+</a>
 
   <p align="center">
     <p>Find a local Therapist today!</p>
-	A Cloud Database of Therapists Around the Country!<br />
+ A Cloud Database of Therapists Around the Country!<br />
     <a href="https://therapist-finder.netlify.app/"><strong>Live Website (Frontend) - Therapist Finder</strong></a> <br/>
       <a href="https://therapist-finder-backend.herokuapp.com/therapists/"><strong>Live Website (Backend) - Therapist Finder</strong></a>
     <br/><br/>
-	CRUD Web Application built on <br/>
+ CRUD Web Application built on <br/>
     <a href="https://nodejs.org/en/">Node.js</a>
     ·
     <a href="https://expressjs.com/">Express</a>
@@ -28,17 +28,15 @@
 </div>
 
 # About
+
 Description            |  Screenshot
 :---:|:----:
-| <p align="left">- A cloud based web application that displays a directory of therapists where users can view and leave comments on individual therapists. <br> - Users will be able to explore therapists and view details regarding their specialties, location, background, and reviews from previous patients! <br> - Users can leave a review o therapists they have worked with previously! <br></p> | ![](https://i.imgur.com/KqvqrYt.jpg) | 
-
-
-
-
+| <p align="left">- A cloud based web application that displays a directory of therapists where users can view and leave comments on individual therapists. <br> - Users will be able to explore therapists and view details regarding their specialties, location, background, and reviews from previous patients! <br> - Users can leave a review o therapists they have worked with previously! <br></p> | ![](https://i.imgur.com/KqvqrYt.jpg) |
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 # Functionality
+
 - In this app we will access a database of therapists and display them on the index page
 - User will Be able to view a directory of therapists and browse any for full information
 - User will be able to sign in and leave comments on any therapist
@@ -47,8 +45,8 @@ Description            |  Screenshot
         - edit any of their reviews on a therapist
         - delete any of their reviews on a therapist
 
-
 # Routes
+
 ```
 - get '/user/:googleId' --> allows user to sign in with their google account to acess features on page
 
@@ -74,9 +72,10 @@ Description            |  Screenshot
 
 ```
 
-# Models/Schema 
+# Models/Schema
 
 Therapist/Review Schema:
+
 ```
 const reviewSchema = new Schema({
     rreview: { type: String, require: true },
@@ -101,7 +100,9 @@ const therapistSchema = new mongoose.Schema({
     reviews: [reviewSchema]
 })
 ```
+
 User Schema:
+
 ```
 const userSchema = new mongoose.Schema({
     name:{ type: String, required: true },
@@ -129,12 +130,7 @@ const userSchema = new mongoose.Schema({
 
 - User will be able to see all comments on each therapist
 
-
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-
 
 # Roadmap and Future Implementations
 
@@ -148,13 +144,11 @@ const userSchema = new mongoose.Schema({
 
 -Allow users to leave a star rating that creates an average rating for the therapist
 
-
-
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 # User Story
 
-- As a user, I should be able to see directory of Therapists on Index 
+- As a user, I should be able to see directory of Therapists on Index
 
 - As a user, I should be able to click any of the therapists for their full description/data on index page
 
@@ -166,7 +160,7 @@ const userSchema = new mongoose.Schema({
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-# Technologies used 
+# Technologies used
 
 - HTML
 - CSS
@@ -178,20 +172,20 @@ const userSchema = new mongoose.Schema({
 - React
 - MongoDB
 - Mongoose
-- Bootstrap
+- Bootstrap is horrible and the classnames are terrible and documentation is awful, never will I use it again!! tailwind>materialize>bootstrap  
 - Node
 - React Google Login
 
-
 <p align="right">(<a href="#top">back to top</a>)</p>
-
 
 # Therapist Finder WireFrame and ERD
 
 ## ERD
+
 ![Model](https://i.imgur.com/dQXQMFo.png)
 
 ## Wireframes
+
 ![Index Page](https://i.imgur.com/mitheam.png)
 ![Show Page](https://i.imgur.com/OxamYvs.png)
 

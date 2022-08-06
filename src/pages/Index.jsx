@@ -7,12 +7,12 @@ export default function Index({ therapists }) {
   const loaded = () => {
     return (
       <div className=" main mx-auto flex-grow-1">
-        <div className="container">
-          <div className="d-flex justify-content-evenly flex-wrap">
+        <div className="container mx-0 my-2 my-sm-4 ">
+          <div className="ther-grid">
         {therapists.map((therapists, i) => {
           return (
-              <Link className="thercard p-2 bd-highlight text-decoration-none " key={i} style={{width:"30%"}} to={`/therapists/${therapists._id}`}>
-                <div className="card mb-3" >
+              <Link className="thercard bd-highlight text-decoration-none " key={i}  to={`/therapists/${therapists._id}`}>
+                <div className="card h-100" >
                   <h3 className="card-header">{therapists.name}</h3>
                   <div className="card-body">
                     <h5 className="card-title">Specialties</h5>
