@@ -10,7 +10,10 @@ export default function Show({
 }) {
   const { id } = useParams();
 
-  const therapist = therapists?.find((therapist) => therapist._id === id);
+  const therapist = therapists?.find((therapist) => {
+    // console.log(therapist)
+    return therapist._id === id
+  });
   // console.log(therapist)
 
   return (

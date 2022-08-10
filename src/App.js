@@ -5,6 +5,7 @@ import Header from './components/Header';
 import Main from './components/Main'
 
 
+
 function App() {
 
 
@@ -71,20 +72,25 @@ function App() {
     document.getElementById("signInDiv").hidden = false
   }
 
-
-  useEffect(()=>{
     /*global google*/
-    google.accounts.id.initialize({
-      client_id: "87317623296-92up46c8k7kv5pe63ert0qb7893jq87r.apps.googleusercontent.com",
-      callback: handleCallbackResponse
-    });
+    const googleAccounts = async () =>{
+      await google.accounts.id.initialize({
+        client_id: "87317623296-92up46c8k7kv5pe63ert0qb7893jq87r.apps.googleusercontent.com",
+        callback: handleCallbackResponse
+      });
+  
+      await google.accounts.id.renderButton(
+        document.getElementById("signInDiv"),
+        { type: "standard", theme: "outline", text: "signin", shape: "circle", size: "medium"}
+      );
 
-    google?.accounts.id.renderButton(
-      document.getElementById("signInDiv"),
-      { type: "standard", theme: "outline", text: "signin", shape: "circle", size: "medium"}
-    );
+    }
+    googleAccounts()
+    .catch(err => console.log(err));
 
     // createUser();
+  useEffect(()=>{
+
   },[])
   
  
