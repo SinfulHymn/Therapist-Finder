@@ -11,7 +11,7 @@ export default function Main ({userDB}) {
     const [therapists,setTherapists]=useState(null)
     // if(therapists)console.log(therapists[0])
     // const url = "http://localhost:3001/"
-    const url="https://therapist-finder-backend.herokuapp.com/"
+    const url="https://tf-data.kmachost.com/"
     
     const getTherapists= async () =>{
         const data= await fetch(url+"therapists").then(res => res.json())
