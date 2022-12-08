@@ -12,7 +12,7 @@ function App() {
   const [user, setUser] = useState({})
   const [userDB, setUserDB] = useState({})
   // const url = "http://localhost:3001/"
-  const url="https://therapist-finder-backend.herokuapp.com/"
+  const url="https://tf-data.kmachost.com/"
   // console.log("this is user",user)
  
   // function createUser(e){
